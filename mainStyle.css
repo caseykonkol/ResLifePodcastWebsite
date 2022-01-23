@@ -5,6 +5,15 @@
 h1{
     font-size:48px;
 }
+h2{
+    font-size: 36px;
+}
+h3{
+    font-size: 24px;
+}
+p{
+    font-size:18px;
+}
 /*Class Related CSS */
 .Header{
     background-image:linear-gradient( rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75) ),url(EdgewoodCollege.jpeg);
@@ -28,4 +37,44 @@ h1{
 .Navbar a:hover{
     text-decoration:underline;
     color:grey;
+}
+.CrewBiography{
+    max-height:30vh;
+    max-width:95%;
+    margin:auto;
+}
+.CrewBiography h2,h3{
+    text-align:center;
+}
+.BioImg{
+    border-radius: 50%;
+    height: 25vh;
+    width: 25vh;
+    object-fit: cover;
+    object-position: center;
+}
+.CrewImg{
+    float:left;
+    height: 25vh;
+    width: 25vh;
+}
+.CrewInf{
+    height: 25vh;
+    float:right;
+    max-width:85%;
+   
+}
+.CrewImg2{
+    float:right;
+    height: 25vh;
+    width: 25vh;
+}
+.CrewInf2{
+    height: 25vh;
+    float:left;
+    max-width:85%;
+   
+}
+#CaseyInformation,#CaseyImg{
+    border:1px black solid;
 }
